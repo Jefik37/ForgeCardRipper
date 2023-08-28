@@ -1,7 +1,7 @@
 <h2><b>Requisitos</b></h2>
 <ul>
-  <li><a href="https://pypi.org/project/pytesseract/">Pytesseract 0.3.10</a></li>
   <li><a href="https://github.com/tesseract-ocr/tesseract">Tesseract</a></li>
+  <li><a href="https://pypi.org/project/pytesseract/">Pytesseract 0.3.10</a></li>
   <li><a href="https://pypi.org/project/PyAutoGUI/">PyAutoGUI 0.9.54</a></li>
   <li><a href="https://pypi.org/project/Pillow/">Pillow 10.0.0</a></li>
   <li><a href="https://pypi.org/project/pynput/">pynput 1.7.6</a></li>
