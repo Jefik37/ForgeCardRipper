@@ -6,11 +6,11 @@ import csv
 from pynput import mouse
 import os
 
-path_ = "D:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+path_ = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
 pytesseract.tesseract_cmd=path_
 
-four_k=True
+four_k=False
 
 def translate(title_):
     with open('names.csv', newline='', encoding='utf8') as f:
@@ -31,7 +31,7 @@ def save_card():
     else:
         t_w_i, t_h_i, t_w_f, t_h_f = 1313, 54, 1912, 85
 
-        s_w_i, s_h_i, s_w_f, s_h_f = 1874, 115, 1911, 140
+        s_w_i, s_h_i, s_w_f, s_h_f = 1876, 115, 1911, 140
 
         c_w_i, c_h_i, c_w_f, c_h_f = 716, 190, 1203, 869
 
