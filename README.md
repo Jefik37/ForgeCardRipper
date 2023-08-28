@@ -33,3 +33,7 @@
   <li>Caso a imagem esteja cortada ou não tenha carregado direito, basta clicar novamente que ela irá ser carregada mais uma vez.</li>
   
 </ul>
+
+<h2><b>Guia e Demonstração</b></h2
+
+https://youtu.be/MbFaPJ6pBqY
