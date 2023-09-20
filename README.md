@@ -10,6 +10,8 @@
 <h2><b>Configurações</b></h2>
 
 <ul><li>Tamanho Padrão da Fonte no Forge: 18</li></ul>
+<li>Atualize o arquivo <code>main.py</code> com o diretório de instalação do Tesseract (linha 9), de acordo com a sua instalação.</li>
+<li>Para gerar um arquivo atualizado com os nomes usando o <code>name_generator.py</code>, coloque-o em <code>[LOCAL DE INSTALAÇÃO DO FORGE]\res\languages</code> e execute. Será gerado um arquivo <code>names.csv</code>. Coloque-o no mesmo diretório do <code>main.py</code>.</li>
 
 <h3>Em monitores 1920x1080p:</h3>
 <ul>
@@ -23,16 +25,21 @@
   <li>Definir a variável <code>four_k</code> no <code>main.py</code> como <code>True</code>.</li>
 </ul>
 
-<h2><b>Usagem</b></h2
+<h2><b>Usagem</b></h2>
 
-<ul>
-  <li>Para gerar um arquivo atualizado com os nomes usando o <code>name_generator.py</code>, coloque-o em <code>[LOCAL DE INSTALAÇÃO DO FORGE]\res\languages</code> e execute. Será gerado um arquivo <code>names.csv</code>. Coloque-o no mesmo diretório do <code>main.py</code>.</li>
-  <li>Atualize o arquivo <code>main.py</code> com o diretório de instalação do Tesseract (linha 9), de acordo com a sua instalação.</li>
-  <li>Após configurado, basta executar o script e abrir o Forge. Selecione a carta que quiser e clique nela com o botão do meio do mouse. As cartas irão para a parta <code>card</code>, no mesmo diretório do <code>main.py</code>.
+
+  <h3>Gerar Cartas Individuais</h3>
+  <ul>
+    <li>Selecione a carta que quiser e clique nela com o botão do meio do mouse. As cartas irão para a parta <code>card</code>, no mesmo diretório do <code>main.py</code>.
     Recomenda-se segurar o botão do meio do mouse com a carta aberta por pelo menos dois segundos.</code></li>
   <li>Caso a imagem esteja cortada ou não tenha carregado direito, basta clicar novamente que ela irá ser carregada mais uma vez.</li>
-  
-</ul>
+  </ul>
+  <h3>Gerar Cartas A Partir De Um Deck</h3>
+  <ul>
+    <li>Abra o deck e selecione a primeira carta.</li>
+    <li>Aperte a tecla <code>ctrl</code> e <b>NÃO</b> mexa o mouse nem aperte nenhuma tecla até que tenha terminado.</li>
+  </ul>
+
 
 <h2><b>Guia e Demonstração</b></h2
 
