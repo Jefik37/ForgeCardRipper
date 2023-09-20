@@ -120,8 +120,7 @@ def on_press(key):
             save_card()
             pyautogui.scroll(clicks=-1000)
             pyautogui.press('down')
-            time.sleep(0.5)
-
+            
             title=pytesseract.image_to_string('title.jpg', config='--psm 7', lang="por")
             new_title=pyautogui.screenshot(region=(t_w_i, t_h_i, t_w_f-t_w_i, t_h_f-t_h_i))
             new_title=pytesseract.image_to_string(new_title, config='--psm 7', lang="por")
