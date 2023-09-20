@@ -1,5 +1,6 @@
 <h2><b>Requisitos</b></h2>
 <ul>
+  <li><a href="https://www.python.org/downloads/release/python-3115/">Python 3.11</a></li>
   <li><a href="https://github.com/tesseract-ocr/tesseract">Tesseract</a></li>
   <li><a href="https://pypi.org/project/pytesseract/">Pytesseract 0.3.10</a></li>
   <li><a href="https://pypi.org/project/PyAutoGUI/">PyAutoGUI 0.9.54</a></li>
