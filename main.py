@@ -16,9 +16,9 @@ pytesseract.tesseract_cmd=path_
 four_k=False
 
 if four_k:
-    t_w_i, t_h_i, t_w_f, t_h_f = 2626, 108, 3825, 172
+    t_w_i, t_h_i, t_w_f, t_h_f = 2626, 108, 3825, 150
 
-    s_w_i, s_h_i, s_w_f, s_h_f = 3748, 230, 3823, 281
+    s_w_i, s_h_i, s_w_f, s_h_f = 3748, 195, 3823, 230
 
 else:
     t_w_i, t_h_i, t_w_f, t_h_f = 1313, 54, 1912, 85
@@ -41,7 +41,7 @@ def removedash(text):
     text=text[0:x].strip()
     return text
 
-def save_card():
+def save_card(show_name=False):
     if four_k:
         c_w_i, c_h_i, c_w_f, c_h_f = 1432, 380, 2407, 1739
 
@@ -66,7 +66,8 @@ def save_card():
 
     title=removedash(title)
 
-    print(title, f'({set_})', end=' - ')
+    if show_name:
+        print(title, f'({set_})', end=' - ')
 
     if double_card:
         title=title.split('//')
@@ -76,7 +77,8 @@ def save_card():
     else:
         title = translate(title)
 
-    print(title, f'({set_})')
+    if show_name:
+        print(title, f'({set_})')
 
     card=pyautogui.screenshot(region=(c_w_i, c_h_i, c_w_f-c_w_i, c_h_f-c_h_i))
     if double_card:
@@ -117,10 +119,10 @@ def on_press(key):
             pyautogui.scroll(clicks=-1000)
             pyautogui.click(card_location)
             pyautogui.scroll(clicks=1000)
-            save_card()
+            save_card(show_name=True)
             pyautogui.scroll(clicks=-1000)
             pyautogui.press('down')
-            
+
             title=pytesseract.image_to_string('title.jpg', config='--psm 7', lang="por")
             new_title=pyautogui.screenshot(region=(t_w_i, t_h_i, t_w_f-t_w_i, t_h_f-t_h_i))
             new_title=pytesseract.image_to_string(new_title, config='--psm 7', lang="por")
