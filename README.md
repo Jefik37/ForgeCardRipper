@@ -10,7 +10,8 @@
 
 <h2><b>Configurações</b></h2>
 
-<ul><li>Tamanho Padrão da Fonte no Forge: 18</li></ul>
+<ul><li>Tamanho Padrão da Fonte no Forge: <code>18</code></li></ul>
+<ul><li>Formato de Arte da Carta: <code>Crop</code></li></ul>
 <li>Atualize o arquivo <code>main.py</code> com o diretório de instalação do Tesseract (linha 9), de acordo com a sua instalação.</li>
 <li>Para gerar um arquivo atualizado com os nomes usando o <code>name_generator.py</code>, coloque-o em <code>[LOCAL DE INSTALAÇÃO DO FORGE]\res\languages</code> e execute. Será gerado um arquivo <code>names.csv</code>. Coloque-o no mesmo diretório do <code>main.py</code>.</li>
 
