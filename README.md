@@ -1,3 +1,7 @@
+<h2><b>Demonstração</b></h2
+
+https://youtu.be/MbFaPJ6pBqY
+
 <h2><b>Requisitos</b></h2>
 <ul>
   <li><a href="https://www.python.org/downloads/release/python-3115/">Python 3.11</a></li>
@@ -41,8 +45,3 @@
     <li>Abra o deck e selecione a primeira carta.</li>
     <li>Aperte a tecla <code>ctrl</code> e <b>NÃO</b> mexa o mouse nem aperte nenhuma tecla até que tenha terminado.</li>
   </ul>
-
-
-<h2><b>Guia e Demonstração</b></h2
-
-https://youtu.be/MbFaPJ6pBqY
